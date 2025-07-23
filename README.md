@@ -43,18 +43,9 @@ Transform raw reimbursement records into actionable insights with this Power BI 
 
 ---
 
-## 🛠️ How To Use
-
-1. **Clone this repository**
-2. **Open the provided Power BI file**
-3. **Import your `Employee_reimbursement_dataset.xlsx`**
-4. **Start exploring with the dashboard’s interactive visuals and filters**
-
----
-
 ## 📝 Credits
 
-Dashboard logic, transformations, and analytics were designed and inspired by advanced prompt engineering using **Perplexity Labs**.
+Dashboard logic, transformations, and analytics were designed and inspired by advanced prompt engineering using ## Perplexity Labs.
 
 ---
 
