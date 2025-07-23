@@ -1,76 +1,68 @@
-# Employee-Reimbursement-Dashboard
+```markdown
 # Employee Reimbursement Dashboard
 
-Welcome to the **Employee Reimbursement Dashboard** — an interactive analytics solution for streamlined expense management, powered by **Power BI** and inspired by advanced prompt engineering using **Perplexity Labs**.
+Welcome to the **Employee Reimbursement Dashboard** — a modern, interactive business intelligence solution designed for efficient company expense management. This dashboard was conceptualized and structured with guidance from **Perplexity Labs**, harnessing prompt-driven, AI-powered analytics to maximize reporting clarity and impact.
 
 ---
 
-## 🌟 **Overview**
+## 🌟 Overview
 
-This dashboard was meticulously designed to transform raw employee reimbursement data into reliable, actionable insights. Combining robust data cleansing, intelligent financial logic, and dynamic visualizations, it empowers finance teams and business managers to make data-driven decisions with clarity and confidence.
-
----
-
-## 🚀 **Dashboard Highlights**
-
-- **Automated Data Cleansing**  
-  ▫ Standardizes expense types and project names  
-  ▫ Smart currency inference and INR conversion (with accurate exchange rates)  
-
-- **Insightful Visual Analytics**  
-  ▫ Interactive filters for Project, Employee, and Approval Status  
-  ▫ Eye-catching metric cards (totals, declines, per-project stats)  
-  ▫ Bar charts, pie charts, and approval breakdowns for quick understanding  
-
-- **Full Interactivity**  
-  ▫ Instantly updates all visuals when filters are changed  
-  ▫ Drill down into requests, top expenses, and approval status trends
-
-- **Professional & Responsive**  
-  ▫ Modern design suitable for executive reporting  
-  ▫ Polished layout for both desktop and mobile usability
+Transform raw reimbursement records into actionable insights with this Power BI dashboard. You’ll discover spending trends, streamline approvals, and empower smarter decision-making—all within a polished, responsive interface.
 
 ---
 
-## 🧩 **How It Works**
+## 🚀 Features
 
-1. **Data Import**  
-   Upload your data via `Employee_reimbursement_dataset.xlsx`.
+- **Data Cleansing Automation**
+  - Corrects typos and unifies formats for effortless reporting
+  - Intelligent currency assignment and INR conversions (actual exchange rates)
 
-2. **Transformation & Logic**  
-   All cleansing, logic (including currency fix), and conversions happen in Power BI using Power Query and DAX, inspired by _prompt engineering solutions from Perplexity Labs_.
+- **Dynamic Visualizations**
+  - Metric cards for key performance indicators (totals, count, declines)
+  - Bar chart: Employee vs Reimbursement Amount
+  - Pie chart: Project-wise Reimbursement Split
+  - Approval status breakdown
 
-3. **Visual Exploration**  
-   Use slicers and charts to analyze by employee, project, amount, and status—all in real-time.
+- **Interactive Filtering**
+  - Slicers for project, employee, and approval status
+  - Instant updates for every visual upon filter selection
+
+- **Comprehensive Data Tables**
+  - Drill into individual transactions and analyze by recent request or top spending
+
+- **Professional & Responsive Design**
+  - Optimized for both desktop and mobile viewing
 
 ---
 
-## 📊 **Key Insights Surfaced**
+## 📈 Key Insights 
 
-- **Top Reimbursed Employee** and projects at a glance  
-- **Spending distribution** (e.g., transportation or project-wise shares)  
-- **Approval patterns** and declined request rates  
-- **Total and project-specific metrics** in INR
+- **Quickly identify top reimbursed employees and projects**
+- **Spot dominant expense categories (e.g., transportation or project-wise totals)**
+- **Monitor approval patterns and declined requests**
+- **Track total and project-specific spending in INR**
 
 ---
 
-## 💡 **Getting Started**
+## 🛠️ How To Use
 
 1. **Clone this repository**
-2. **Open the Power BI file** (or follow included transformation guidelines)
-3. **Import your data and explore!**
+2. **Open the provided Power BI file**
+3. **Import your `Employee_reimbursement_dataset.xlsx`**
+4. **Start exploring with the dashboard’s interactive visuals and filters**
 
 ---
 
-## 📝 **Credits**
+## 📝 Credits
 
-This dashboard's logic and structure were expertly generated and refined with assistance from **Perplexity Labs**, demonstrating the power of prompt-driven business intelligence.
-
----
-
-Thank you for visiting!  
-*Feel free to fork, contribute, or suggest enhancements.*
-
-> _Transform your expense data. Uncover insights. Empower decisions._
+Dashboard logic, transformations, and analytics were designed and inspired by advanced prompt engineering using **Perplexity Labs**.
 
 ---
+
+Thank you for checking out this project!  
+Feel free to fork, contribute, or suggest improvements.
+
+> _Harness actionable insights. Elevate your expense analytics. Empower decision-making._
+
+---
+```
