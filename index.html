@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Reimbursement Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <h1>Employee Reimbursement Dashboard</h1>
+                <div class="date-info">
+                    <p class="current-date">Today: <span id="currentDate"></span></p>
+                    <p class="last-updated">Last Updated: July 23, 2025</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Key Metrics Cards -->
+        <section class="metrics-section">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-value" id="totalReimbursed">₹3,079,339.96</div>
+                    <div class="metric-label">Total Reimbursed Amount</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">📋</div>
+                    <div class="metric-value" id="totalRequests">100</div>
+                    <div class="metric-label">Total Requests</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">✅</div>
+                    <div class="metric-value" id="approvedRequests">88</div>
+                    <div class="metric-label">Approved Requests</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">❌</div>
+                    <div class="metric-value" id="declinedRequests">0</div>
+                    <div class="metric-label">Declined Requests</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">⏳</div>
+                    <div class="metric-value" id="pendingRequests">12</div>
+                    <div class="metric-label">Pending Requests</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🔥</div>
+                    <div class="metric-value" id="projectBTotal">₹1,205,517.00</div>
+                    <div class="metric-label">Project B Total</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters Section -->
+        <section class="filters-section card">
+            <div class="card__body">
+                <h3>Filters</h3>
+                <div class="filters-grid">
+                    <div class="filter-group">
+                        <label for="projectFilter" class="form-label">Project</label>
+                        <select id="projectFilter" class="form-control">
+                            <option value="">All Projects</option>
+                            <option value="Project_A">Project A</option>
+                            <option value="Project_B">Project B</option>
+                            <option value="Project_C">Project C</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="employeeFilter" class="form-label">Employee</label>
+                        <select id="employeeFilter" class="form-control">
+                            <option value="">All Employees</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="statusFilter" class="form-label">Status</label>
+                        <select id="statusFilter" class="form-control">
+                            <option value="">All Status</option>
+                            <option value="Approved">Approved</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Declined">Declined</option>
+                        </select>
+                    </div>
+                    <div class="filter-group filter-actions">
+                        <button id="clearFilters" class="btn btn--secondary">Clear Filters</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <div class="charts-grid">
+                <div class="chart-card card">
+                    <div class="card__header">
+                        <h4>Employee Reimbursements</h4>
+                    </div>
+                    <div class="card__body">
+                        <div class="chart-container">
+                            <canvas id="employeeChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-card card">
+                    <div class="card__header">
+                        <h4>Project Distribution</h4>
+                    </div>
+                    <div class="card__body">
+                        <div class="chart-container">
+                            <canvas id="projectChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-card card">
+                    <div class="card__header">
+                        <h4>Expense Types</h4>
+                    </div>
+                    <div class="card__body">
+                        <div class="chart-container">
+                            <canvas id="expenseChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-card card">
+                    <div class="card__header">
+                        <h4>Approval Status Overview</h4>
+                    </div>
+                    <div class="card__body">
+                        <div class="chart-container">
+                            <canvas id="statusChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Tables Section -->
+        <section class="tables-section">
+            <div class="tables-grid">
+                <div class="table-card card">
+                    <div class="card__header">
+                        <div class="table-header">
+                            <h4>Recent Requests</h4>
+                            <div class="table-actions">
+                                <input type="text" id="recentSearch" class="form-control table-search" placeholder="Search requests...">
+                                <button id="exportRecent" class="btn btn--secondary btn--sm">Export CSV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__body">
+                        <div class="table-container">
+                            <table id="recentTable" class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th data-sort="Date">Date</th>
+                                        <th data-sort="Employee">Employee</th>
+                                        <th data-sort="Project">Project</th>
+                                        <th data-sort="ExpenseType">Expense Type</th>
+                                        <th data-sort="AmountINR">Amount (₹)</th>
+                                        <th data-sort="Status">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recentTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-card card">
+                    <div class="card__header">
+                        <div class="table-header">
+                            <h4>Top Expenses</h4>
+                            <div class="table-actions">
+                                <input type="text" id="topSearch" class="form-control table-search" placeholder="Search expenses...">
+                                <button id="exportTop" class="btn btn--secondary btn--sm">Export CSV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__body">
+                        <div class="table-container">
+                            <table id="topTable" class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th data-sort="Date">Date</th>
+                                        <th data-sort="Employee">Employee</th>
+                                        <th data-sort="Project">Project</th>
+                                        <th data-sort="ExpenseType">Expense Type</th>
+                                        <th data-sort="AmountINR">Amount (₹)</th>
+                                        <th data-sort="Status">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="topTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

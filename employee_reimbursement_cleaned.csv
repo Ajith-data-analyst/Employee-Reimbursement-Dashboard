@@ -1,0 +1,101 @@
+Request_ID,Employee_ID,Expense_type,Currency,Amount,Expense_Date,Project_Name,Approval_Status,Approval_Date,Expense_type_clean,Project_clean,Currency_filled,Amount_INR,Name,Month_Year
+123121,204,Miscellaneous,USD,37,2023-05-01,Project_B,Approved,2023-05-09,Miscellaneous,Project_B,USD,3045.1,Sachin,2023-05
+123122,204,Miscellaneous,USD,103,2023-05-02,Project_C,Approved,2023-05-05,Miscellaneous,Project_C,USD,8476.9,Sachin,2023-05
+123123,203,Transportation,INR,5325,2023-05-04,ProjectA,Approved,2023-05-10,Transportation,Project_A,INR,5325.0,Siva,2023-05
+123124,206,Transportation,INR,5621,2023-05-05,Project_A,Approved,2023-05-09,Transportation,Project_A,INR,5621.0,David,2023-05
+123125,202,Transportation  ,INR,1059,2023-05-06,Project_A,Approved,2023-05-16,Transportation,Project_A,INR,1059.0,Urmila,2023-05
+123127,203,Transportation,EURO,17,2023-05-07,Project_A,Approved,2023-05-08,Transportation,Project_A,EURO,1521.5,Siva,2023-05
+123128,201,Transportation,INR,4810,2023-05-07,Project_C,Approved,2023-05-11,Transportation,Project_C,INR,4810.0,Park,2023-05
+123126,206,Training and Development,USD,59,2023-05-07,ProjectA,Approved,2023-05-10,Training and Development,Project_A,USD,4855.7,David,2023-05
+123129,206,Transportation,INR,6464,2023-05-08,Project_A,Approved,2023-05-18,Transportation,Project_A,INR,6464.0,David,2023-05
+123130,204,TRANsporTAation,,9511,2023-05-10,Project_A,Approved,2023-05-20,Transportation,Project_A,INR,9511.0,Sachin,2023-05
+123131,204,Transportation,INR,8539,2023-05-10,Project_A,Approved,2023-05-11,Transportation,Project_A,INR,8539.0,Sachin,2023-05
+123132,204,Miscellaneous,,3799,2023-05-12,Project_A,Approved,2023-05-19,Miscellaneous,Project_A,INR,3799.0,Sachin,2023-05
+123133,205,Accommodation,INR,7599,2023-05-12,Project_A,Approved,2023-05-21,Accommodation,Project_A,INR,7599.0,Dhoni,2023-05
+123134,205,Training and Development,INR,7702,2023-05-12,Project_A,Approved,2023-05-13,Training and Development,Project_A,INR,7702.0,Dhoni,2023-05
+123135,202,Transportation,USD,120,2023-05-12,Project_A,Approved,2023-05-18,Transportation,Project_A,USD,9876.0,Urmila,2023-05
+123136,202,Transportation,INR,1951,2023-05-15,Project_A,Approved,2023-05-20,Transportation,Project_A,INR,1951.0,Urmila,2023-05
+123137,203,Transportation,USD,180,2023-05-17,Project_B,Approved,2023-05-27,Transportation,Project_B,USD,14814.0,Siva,2023-05
+123138,202,Miscellaneous,INR,9412,2023-05-18,Project_A,Approved,2023-05-21,Miscellaneous,Project_A,INR,9412.0,Urmila,2023-05
+123139,202,Miscellaneous,INR,9024,2023-05-19,Project_A,Approved,2023-05-27,Miscellaneous,Project_A,INR,9024.0,Urmila,2023-05
+123140,201,TRANsporTAation,INR,7108,2023-05-20,Project_A,Approved,2023-05-25,Transportation,Project_A,INR,7108.0,Park,2023-05
+123141,206,Miscellaneous,EURO,72,2023-05-21,Project_A,Approved,2023-05-28,Miscellaneous,Project_A,EURO,6444.0,David,2023-05
+123142,201,Miscellaneous,USD,149,2023-05-21,Project_C,Approved,2023-05-23,Miscellaneous,Project_C,USD,12262.699999999999,Park,2023-05
+123143,206,Transportation,INR,6678,2023-05-25,Project_A,Approved,2023-06-01,Transportation,Project_A,INR,6678.0,David,2023-05
+123145,204,Accommodation,EURO,69,2023-05-26,Project_B,Approved,2023-06-03,Accommodation,Project_B,EURO,6175.5,Sachin,2023-05
+123144,205,Miscellaneous,INR,6011,2023-05-26,Project_A,Approved,2023-06-05,Miscellaneous,Project_A,INR,6011.0,Dhoni,2023-05
+123146,202,Miscellaneous,INR,5934,2023-05-27,Project_A,Approved,2023-06-01,Miscellaneous,Project_A,INR,5934.0,Urmila,2023-05
+123147,203,Accommodation,USD,41,2023-05-28,Project_A,Approved,2023-06-03,Accommodation,Project_A,USD,3374.2999999999997,Siva,2023-05
+123148,205,Transportation ,INR,6372,2023-05-29,Project_C,Approved,2023-06-02,Transportation,Project_C,INR,6372.0,Dhoni,2023-05
+123149,204,Transportation,INR,3381,2023-05-29,Project_A,Approved,2023-06-04,Transportation,Project_A,INR,3381.0,Sachin,2023-05
+123150,206,Miscellaneous,INR,7534,2023-05-30,Project_A,Approved,2023-06-02,Miscellaneous,Project_A,INR,7534.0,David,2023-05
+123151,203,Transportation,INR,9752,2023-05-30,ProjectB_,Approved,2023-06-04,Transportation,Project_B,INR,9752.0,Siva,2023-05
+123152,203,Transportation,INR,3421,2023-05-31,Project_A,Approved,2023-06-08,Transportation,Project_A,INR,3421.0,Siva,2023-05
+123153,203,Training and Development,USD,92,2023-06-02,Project_A,Approved,2023-06-11,Training and Development,Project_A,USD,7571.599999999999,Siva,2023-06
+123154,203,Miscellaneous,USD,116,2023-06-02,Project_A,Pending,,Miscellaneous,Project_A,USD,9546.8,Siva,2023-06
+123155,205,Miscellaneous,INR,7451,2023-06-03,Project_C,Approved,2023-06-13,Miscellaneous,Project_C,INR,7451.0,Dhoni,2023-06
+123156,204,Transportation,INR,5756,2023-06-04,Project_A,Approved,2023-06-13,Transportation,Project_A,INR,5756.0,Sachin,2023-06
+123157,206,Miscellaneous,INR,2118,2023-06-04,Project_C,Approved,2023-06-08,Miscellaneous,Project_C,INR,2118.0,David,2023-06
+123158,204,.Miscellaneous,INR,3723,2023-06-04,Project_A,Approved,2023-06-05,Miscellaneous,Project_A,INR,3723.0,Sachin,2023-06
+123159,201,Transportation,INR,5811,2023-06-06,Project_B,Approved,2023-06-15,Transportation,Project_B,INR,5811.0,Park,2023-06
+123160,206,Transportation,INR,1662,2023-06-06,Project_C,Approved,2023-06-11,Transportation,Project_C,INR,1662.0,David,2023-06
+123161,203,Miscellaneous,INR,850,2023-06-07,Project_C,Approved,2023-06-08,Miscellaneous,Project_C,INR,850.0,Siva,2023-06
+123162,204,Transportation,INR,1325,2023-06-11,Project_C,Approved,2023-06-18,Transportation,Project_C,INR,1325.0,Sachin,2023-06
+123163,203,Transportation,INR,8047,2023-06-11,Project_A,Approved,2023-06-20,Transportation,Project_A,INR,8047.0,Siva,2023-06
+123164,202,Transportation,,4615,2023-06-12,ProjectB_,Pending,,Transportation,Project_B,INR,4615.0,Urmila,2023-06
+123165,203,Transportation,USD,70,2023-06-14,Project_A,Approved,2023-06-15,Transportation,Project_A,USD,5761.0,Siva,2023-06
+123166,202,TRANsporTAation,EURO,81,2023-06-15,Project_C,Approved,2023-06-20,Transportation,Project_C,EURO,7249.5,Urmila,2023-06
+123167,205,Miscellaneous,EURO,89,2023-06-15,Project_C,Pending,,Miscellaneous,Project_C,EURO,7965.5,Dhoni,2023-06
+123168,206,Transportation,INR,1385,2023-06-16,Project_C,Approved,2023-06-25,Transportation,Project_C,INR,1385.0,David,2023-06
+123169,205,Transportation,EURO,56,2023-06-19,Project_A,Approved,2023-06-22,Transportation,Project_A,EURO,5012.0,Dhoni,2023-06
+123170,203,Accommodation,INR,4960,2023-06-20,ProjectA,Approved,2023-06-23,Accommodation,Project_A,INR,4960.0,Siva,2023-06
+123171,205,Transportation,USD,186,2023-06-20,Project_B,Approved,2023-06-21,Transportation,Project_B,USD,15307.8,Dhoni,2023-06
+123172,206,Miscellaneous,USD,110,2023-06-22,Project_C,Approved,2023-07-02,Miscellaneous,Project_C,USD,9053.0,David,2023-06
+123173,203,Accommodation,INR,870,2023-06-24,Project_C,Approved,2023-07-04,Accommodation,Project_C,INR,870.0,Siva,2023-06
+123174,203,Transportation,EURO,123,2023-06-25,Project_A,Approved,2023-06-29,Transportation,Project_A,EURO,11008.5,Siva,2023-06
+123176,202,Transportation,INR,4877,2023-06-25,Project_A,Approved,2023-07-02,Transportation,Project_A,INR,4877.0,Urmila,2023-06
+123175,201,Transportation,USD,171,2023-06-25,Project_A,Approved,2023-06-30,Transportation,Project_A,USD,14073.3,Park,2023-06
+123177,203,Training and Development,INR,4932,2023-06-26,Project_A,Approved,2023-07-06,Training and Development,Project_A,INR,4932.0,Siva,2023-06
+123178,203,Training and Development,INR,5980,2023-06-29,Project_B,Approved,2023-07-02,Training and Development,Project_B,INR,5980.0,Siva,2023-06
+123179,202,Transportation,INR,5631,2023-06-30,Project_B,Approved,2023-07-05,Transportation,Project_B,INR,5631.0,Urmila,2023-06
+123180,206,TRANsporTAation,INR,7979,2023-07-03,Project_A,Declined,2023-07-11,Transportation,Project_A,INR,7979.0,David,2023-07
+123181,202,Accommodation,INR,4820,2023-07-05,Project_B,Approved,2023-07-15,Accommodation,Project_B,INR,4820.0,Urmila,2023-07
+123182,203,Accommodation,INR,7583,2023-07-08,Project_A,Approved,2023-07-11,Accommodation,Project_A,INR,7583.0,Siva,2023-07
+123183,203,Accommodation,INR,2232,2023-07-09,Project_C,Approved,2023-07-11,Accommodation,Project_C,INR,2232.0,Siva,2023-07
+123185,203,Training and Development,INR,9136,2023-07-09,Project_A,Approved,2023-07-19,Training and Development,Project_A,INR,9136.0,Siva,2023-07
+123186,203,Training and Development,INR,274,2023-07-09,Project_A,Approved,2023-07-17,Training and Development,Project_A,INR,274.0,Siva,2023-07
+123184,204,Training and Development,USD,158,2023-07-09,Project_C,Approved,2023-07-15,Training and Development,Project_C,USD,13003.4,Sachin,2023-07
+123187,206,Accommodation,INR,5591,2023-07-10,Project_C,Approved,2023-07-16,Accommodation,Project_C,INR,5591.0,David,2023-07
+123188,202,Training and Development,INR,6622,2023-07-12,Project_B,Approved,2023-07-22,Training and Development,Project_B,INR,6622.0,Urmila,2023-07
+123189,204,Transportation,INR,5671,2023-07-12,Project_B,Approved,2023-07-22,Transportation,Project_B,INR,5671.0,Sachin,2023-07
+123190,202,Training and Development,INR,355,2023-07-12,Project_C,Approved,2023-07-16,Training and Development,Project_C,INR,355.0,Urmila,2023-07
+123191,201,Training and Development,USD,189,2023-07-12,Project_C,Approved,2023-07-15,Training and Development,Project_C,USD,15554.699999999999,Park,2023-07
+123192,201,.Miscellaneous,INR,1660,2023-07-13,Project_C,Approved,2023-07-14,Miscellaneous,Project_C,INR,1660.0,Park,2023-07
+123193,206,Transportation,INR,4561,2023-07-14,Project_A,Approved,2023-07-21,Transportation,Project_A,INR,4561.0,David,2023-07
+123194,202,Transportation,INR,5757,2023-07-14,Project_A,Approved,2023-07-17,Transportation,Project_A,INR,5757.0,Urmila,2023-07
+123195,203,Training and Development,INR,3375,2023-07-16,Project_C,Approved,2023-07-24,Training and Development,Project_C,INR,3375.0,Siva,2023-07
+123197,204,Transportation,INR,2978,2023-07-16,Project_B,Pending,,Transportation,Project_B,INR,2978.0,Sachin,2023-07
+123196,202,Transportation,USD,50,2023-07-16,Project_A,Approved,2023-07-20,Transportation,Project_A,USD,4115.0,Urmila,2023-07
+123198,202,Transportation,INR,8992,2023-07-17,Project_B,Approved,2023-07-26,Transportation,Project_B,INR,8992.0,Urmila,2023-07
+123200,203,Transportation,EURO,37,2023-07-18,Project_A,Pending,,Transportation,Project_A,EURO,3311.5,Siva,2023-07
+123199,206,Transportation,INR,5019,2023-07-18,Project_A,Approved,2023-07-24,Transportation,Project_A,INR,5019.0,David,2023-07
+123201,201,Miscellaneous,INR,8242,2023-07-18,Project_B,Approved,2023-07-21,Miscellaneous,Project_B,INR,8242.0,Park,2023-07
+123202,205,Training and Development,USD,149,2023-07-18,Project_A,Approved,2023-07-27,Training and Development,Project_A,USD,12262.699999999999,Dhoni,2023-07
+123203,204,Transportation,INR,7261,2023-07-19,Project_A,Approved,2023-07-20,Transportation,Project_A,INR,7261.0,Sachin,2023-07
+123204,206,Miscellaneous,INR,4454,2023-07-20,Project_A,Pending,,Miscellaneous,Project_A,INR,4454.0,David,2023-07
+123205,201,Transportation,INR,1375,2023-07-20,Project_B,Approved,2023-07-25,Transportation,Project_B,INR,1375.0,Park,2023-07
+123206,206,Miscellaneous,INR,6058,2023-07-20,Project_A,Approved,2023-07-29,Miscellaneous,Project_A,INR,6058.0,David,2023-07
+123207,206,.Miscellaneous,INR,3331,2023-07-21,Project_A,Approved,2023-07-24,Miscellaneous,Project_A,INR,3331.0,David,2023-07
+123208,206,Accommodation,INR,1538,2023-07-21,Project_A,Pending,,Accommodation,Project_A,INR,1538.0,David,2023-07
+123209,201,Transportation,INR,2633,2023-07-22,Project_C,Declined,2023-07-23,Transportation,Project_C,INR,2633.0,Park,2023-07
+123210,201,Transportation,INR,8837,2023-07-23,Project_B,Approved,2023-08-02,Transportation,Project_B,INR,8837.0,Park,2023-07
+123211,203,Miscellaneous,INR,6697,2023-07-24,Project_C,Approved,2023-07-25,Miscellaneous,Project_C,INR,6697.0,Siva,2023-07
+123212,206,Miscellaneous,INR,7120,2023-07-24,Project_A,Approved,2023-07-28,Miscellaneous,Project_A,INR,7120.0,David,2023-07
+123213,204,Miscellaneous,INR,3710,2023-07-25,Project_A,Approved,2023-07-31,Miscellaneous,Project_A,INR,3710.0,Sachin,2023-07
+123214,206,Transportation,,6688,2023-07-26,Project_B,Approved,2023-07-30,Transportation,Project_B,INR,6688.0,David,2023-07
+123215,204,Transportation,INR,9369,2023-07-26,Project_C,Approved,2023-07-31,Transportation,Project_C,INR,9369.0,Sachin,2023-07
+123216,206,Training and Development,,79,2023-07-26,ProjectB_,Approved,2023-08-05,Training and Development,Project_B,USD,6501.7,David,2023-07
+123217,205,Transportation,INR,6388,2023-07-27,ProjectB_,Approved,2023-08-01,Transportation,Project_B,INR,6388.0,Dhoni,2023-07
+123219,203,Transportation,INR,427,2023-07-28,Project_A,Approved,2023-08-07,Transportation,Project_A,INR,427.0,Siva,2023-07
+123218,204,Transportation,USD,130,2023-07-28,Project_A,Pending,,Transportation,Project_A,USD,10699.0,Sachin,2023-07
+123220,206,Miscellaneous,INR,3301,2023-07-31,Project_B,Pending,,Miscellaneous,Project_B,INR,3301.0,David,2023-07
