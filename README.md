@@ -45,7 +45,8 @@ Transform raw reimbursement records into actionable insights with this Power BI 
 
 ## 📝 Credits
 
-Dashboard logic, transformations, and analytics were designed and inspired by advanced prompt engineering using ## Perplexity Labs.
+Dashboard logic, transformations, and analytics were designed and inspired by advanced prompt engineering using 
+## Perplexity Labs.
 
 ---
 
